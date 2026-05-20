@@ -1,0 +1,42 @@
+{
+  "name": "cse341-project2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/auroranorlund/cse341-project2#readme",
+  "bugs": {
+    "url": "https://github.com/auroranorlund/cse341-project2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auroranorlund/cse341-project2.git"
+  },
+  "license": "ISC",
+  "author": "Aurora Norlund",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mongodb": "^7.2.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.6.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3",
+    "swagger-autogen": "^2.23.7"
+  }
+}
