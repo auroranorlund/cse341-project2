@@ -5,10 +5,10 @@
     "description": "Project 2 API for CSE341",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://cse341-project2-zebj.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/book/": {
